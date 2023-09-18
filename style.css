@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+body .hero .container .navbar{
+    background-color: white;
+    width: 200vw;
+    height: 5rem;
+    line-height: 2rem;
+    margin-top: -1rem;
+    box-shadow: -1px 5px 5px black;
+}
+.hero img{
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    top: 2rem;
+}
+.hero .container .navbar ul,
+.hero .container .navbar{
+    position: absolute;
+    top: 1rem;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    z-index: 2;
+}
+.hero .container .navbar ul li{
+    padding: 0 1.2rem;
+    list-style: none;
+}
+.hero .container .navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.hero .container .navbar ul li:nth-child(2){
+    white-space: nowrap;
+}
+.hero .container .slogan{
+    position: absolute;
+    z-index: 2;
+    top: 15rem;
+    width: 30rem;
+    height: 25rem;
+    font-size: 34px;
+    line-height: 4rem;
+    
+}
+.hero .container .slogan h1{
+    white-space: wrap;
+    color: orangered;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
+}
+h1 span{
+    color: rgb(255, 255, 255);
+}
+.hero .container .tombol-satu,
+.hero .container .tombol-dua{
+    position: absolute;
+    z-index: 2;
+    top: 39rem;
+    height: 3em;
+    width: 12em;
+    text-align: center;
+    line-height: 3em;
+}
+.hero .container .tombol-satu{
+    background-color: rgb(49, 3, 47);
+    text-transform: capitalize;
+}
+.hero .container .tombol-dua{
+    left: 25rem;
+    background-color: orangered;
+    height: 3em;
+    width: 12em;
+    text-align: center;
+    line-height: 3em;
+    text-transform: capitalize;
+}
+.text-video .text .tombol-baca a,
+.hero .container .tombol-satu a,
+.hero .container .tombol-dua a{
+    text-decoration: none;
+    color: white;
+}
+.text-video{
+    margin-top: 15em;
+    display: flex;
+    padding: 0 2em ;
+}
+.text-video .video{
+    height: 5em;
+    width: 5em;
+    margin-left: 9rem;
+}
+.text-video .text{
+    width: 30em;
+    margin-left: 30em;
+    margin-top: -2.5rem;
+}
+.text-video .text h3{
+    font-size: 35px;
+
+    color: orangered;
+}
+.text-video .text p{
+    text-align: justify;
+}
+.text-video .text .tombol-baca{
+    background-color: orangered;
+    height: 3em;
+    width: 12em;
+    text-align: center;
+    line-height: 3em;
+}
+.container-foto-bg {
+    margin-top: 15em;
+}
+.container-foto-bg .foto-bg img{
+    width: 115vw;
+    filter: blur(1px) saturate(138%) contrast(96%) invert(18%);
+    -webkit-filter: blur(1px) saturate(50%) contrast(96%) invert(18%);
+    -moz-filter: blur(1px) saturate(50%) contrast(96%) invert(18%);
+
+}
+.container-foto-bg .foto-bg{
+    position: relative;
+}
+.container-foto-bg .list-about{
+    position: absolute;
+    top: 110em;
+    left: 5.5em;
+}
+.container-foto-bg .list-about h3{
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
+    text-transform: capitalize;
+}
+.container-foto-bg .list-about ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-foto-bg .list-about ul li{
+    background-color: rgb(255, 255, 255);
+    width: 23em;
+    min-height: 10em;
+    line-height: 2em;
+    padding: 2em 0;
+    margin-top: 6em;
+}
+.container-foto-bg .list-about ul li:nth-child(2){
+    background-color: brown;
+    color: white;
+}
+.container-foto-bg .list-about ul li i,
+.container-foto-bg .list-about ul li h5{
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.container-foto-bg .list-about ul li P{
+    font-size: 14px;
+    white-space: normal;
+    width: 20em;
+    margin: 0 3em;
+}
+.container-foto-bg .list-about ul li i{
+    font-size: 40px;
+}
+.client .foto-clien-satu img,
+.client .foto-clien-dua img,
+.client .foto-clien-tiga img{
+    height: 3em;
+    width: 3em;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    border-radius: 50%;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15em;
+    margin-left: 12.5em;
+    height: 20em;
+    width: 60em;
+}
+.client .foto-client{
+    display: flex;
+    justify-content: center;
+}
+.client i,
+.client h3{
+    font-size: 30px;
+    color: orangered;
+    padding-bottom: 2%;
+    
+}
+.client .foto-clien-satu img,
+.client .foto-clien-tiga img{
+    height: 2.5em;
+    width: 2.5em;
+}
+.client i{
+    font-size: 60px;
+}
+.client h5{
+    margin-top: 0.5em;
+    font-size: 16px;
+}
+.client h6{
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+.client .star i{
+    margin-top: -10em;
+    font-size: 16px;
+    color: rgb(255, 187, 0);
+}
+.client .star{
+    margin-top: -1em;
+}
+.pricing{
+    margin-top: 20em ;
+    text-align: center;
+}
+.pricing img{
+    width: 115vw;
+    position: relative;
+    filter: blur(1px) saturate(138%) contrast(96%) invert(18%);
+    -webkit-filter: blur(1px) saturate(50%) contrast(96%) invert(18%);
+    -moz-filter: blur(1px) saturate(50%) contrast(96%) invert(18%);
+}
+.pricing .text-pricing ul{
+    display: flex;
+}
+.pricing .text-pricing ul li{
+    height: 25em;
+    width: 20em;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    list-style: none;
+    padding: 2em;
+    margin: 1em;
+}
+.pricing .text-pricing{
+    position: absolute;
+    top: 210em;
+    left: 0.5em;
+}
+.pricing .text-pricing h5{
+    font-size: 1.5em;
+    margin-top: 1px;
+    color: orangered;
+}
+.pricing .text-pricing ul li p{
+    width: 20em;
+    margin-right: 10%;
+    margin-top: 2em;
+    line-height: 2em;
+}
+.pricing .text-pricing ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    height: 3em;
+    width: 12em;
+    text-align: center;
+    line-height: 3em;
+    text-transform: capitalize;
+    margin: 15%;
+}
+.pricing .text-pricing h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: orangered;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
+    margin-bottom: 2em;
+}
+.pricing .text-pricing ul li span{
+    font-size: 12px;
+    color: gray;
+}
+.news ul{
+    display: flex ;
+    justify-content: center;
+}
+.news ul li{
+    display: flex;
+    flex-direction: row;
+    margin-top: em;
+    margin-left: 10px;
+}
+.news ul li img{
+    width: 10em;
+}
+.news ul li h5{
+    font-size: 16px;
+}
+.news ul li p{
+    font-size: 14px;
+    line-height: 1px;
+    color: gray;
+}
+.text-news-satu,
+.text-news-dua{
+    width: 15em;
+    height: 8em;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+.news .text-news-dua h5,
+.news .text-news-satu h5{
+    margin-top: 0.5em;
+}
+.news h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+}
+.news{
+    margin-top: 10em;
+}
+
+footer{
+    background-color: rgb(30, 4, 34);
+    height:18em;
+}
+.container-footer{
+    width: 75em;
+    display: flex;
+    justify-content: center;
+    margin-left: 5.5em;
+}
+.container-footer .berita-lainnya ul,
+.container-footer .newslatter ul,
+.container-footer .alamat ul{
+    list-style: none;
+}
+.container-footer .newslatter h3,
+.container-footer .berita-lainnya h3,
+.container-footer .menu-footer h3,
+.container-footer .alamat h3{
+    margin-left: 40px;
+    color: orangered;
+}
+.container-footer .berita-lainnya ul li,
+.container-footer .newslatter ul li{
+    margin-top: 10px;
+}
+.container-footer .berita-lainnya ul li:nth-child(1),
+.container-footer .berita-lainnya ul li:nth-child(3){
+    color: gray;
+}
+.container-footer .newslatter ul li,
+.container-footer .berita-lainnya ul li,
+.container-footer .menu-footer ul li,
+.container-footer .alamat ul li{
+    color: white;
+}
+.container-footer .newslatter ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    height: 3em;
+    width: 12em;
+    text-align: center;
+    line-height: 3em;
+}
+.container-footer .newslatter ul li:first-child,
+.container-footer .berita-lainnya ul li,
+.container-footer .menu-footer ul li,
+.container-footer div.alamat ul li p,
+.container-footer div.alamat ul li{
+    font-size: 12px;
+}
+.container-footer .menu-footer h3{
+    white-space: nowrap;
+}
+.container-footer .menu-footer ul{
+    list-style: circle;
+}
+.copyright {
+    text-align: center;
+    color: rgb(82, 82, 82);
+    background-color: rgb(21, 8, 34);
+    height: 2rem;
+    margin-top: 1px;
+    line-height: 2rem;
+}
